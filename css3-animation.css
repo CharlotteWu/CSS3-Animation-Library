@@ -88,3 +88,11 @@ p{
 .Flip{
     animation: Flip 2s infinite;
 }
+
+.SlideOblique{
+    animation: SlideOblique 2s infinite;
+}
+
+.Brake{
+    animation: Brake 2s infinite
+}
