@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto/roboto-thin-webfont.eot');
+    src: url('Roboto/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto/roboto-thin-webfont.woff2') format('woff2'),
+         url('Roboto/roboto-thin-webfont.woff') format('woff'),
+         url('Roboto/roboto-thin-webfont.ttf') format('truetype'),
+         url('Roboto/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.content{
+	max-width: 1024px;
+	max-height: 100%; 
+	margin: 0 auto;
+    font-family: 'roboto';
+}
+
+h1,h3{ 
+    text-align: center;
+    line-height: 60px;
+} 
+
+ul{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    list-style: none; 
+    overflow: hidden;
+}
+
+li{
+    width: 33%;
+    height: 150px; 
+    float: left; 
+    overflow: hidden;
+}
+
+p{
+     line-height: 150px;
+     text-align: center; 
+     font-size: 30px;
+}
+
+
+
+/*the animation effect start*/
+.rotate{
+    animation-iteration-count: infinite;
+}
+
+.fadeIn{
+    animation-iteration-count: infinite;
+}
+
+.fadeOut{
+    animation-iteration-count: infinite;
+}
+
+.zoomIn{
+    animation-iteration-count: infinite;
+}
+
+.zoomOut{
+    animation-iteration-count: infinite;
+}
+
+.slideToLeft{
+    animation-iteration-count: infinite;
+}
+
+.slideToRight{
+    animation-iteration-count: infinite; 
+}
+
+.slideToTop{
+    animation-iteration-count: infinite;
+}
+
+.slideToBottom{
+    animation-iteration-count: infinite;
+}
+
+.flipX{
+    animation-iteration-count: infinite;
+}
+
+.flipY{
+    animation-iteration-count: infinite;
+}
+
+.rollIn{
+    animation-iteration-count: infinite;
+}
+
+.rollOut{
+    animation-iteration-count: infinite;
+}
+
+.brake{
+    animation-iteration-count: infinite;
+}
+
+.swapLeft{
+    animation-iteration-count: infinite; 
+}
+
+.swapRight{
+    animation-iteration-count: infinite; 
+}
+
+.swing{
+    animation-iteration-count: infinite; 
+}
+
+.tada{
+    animation-iteration-count: infinite;
+}
+
+.rubber{
+    animation-iteration-count: infinite;
+}
+
+.jello{
+    animation-iteration-count: infinite;
+}
+
+.wobble{
+    animation-iteration-count: infinite;
+}
+
+.shake{
+    animation-iteration-count: infinite;
+}
